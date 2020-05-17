@@ -79,7 +79,7 @@ Attribute Information:
 
 We are just taking the key features into consideration.
 ## The Project
-It has 5 parts,
+It has 3 parts,
 * Description
     * A brief about the project and the objective of this project.
     * The link to this page is [BRIEF ABOUT THE PROJECT](https://colab.research.google.com/drive/1KnEyXTq439mssK818S5Kx46LdAmNZ2Cp?usp=sharing)
