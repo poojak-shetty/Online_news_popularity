@@ -90,11 +90,26 @@ It has 5 parts,
     * The link to this page is [DATA CLEANING AND VISUALIZATION](https://colab.research.google.com/drive/18IEnQkxPgaU60bsfLy4bPZf-hDwIQA73?usp=sharing)
 * Models
     * Logistic Regression model
+        * Here,we have used Logistic Regression with respect 1 and 2 features.
         * The link to this page is [LOGISTIC REGRESSION](https://colab.research.google.com/drive/1kvHdMvnQ90vtHecCUqdkz-zeRrzR-u0v?usp=sharing)
-    * Neural Networks and Keras
+    * Neural Networks and Keras 
         * The link to this page is [NEURAL NETWORKS AND KERAS](https://colab.research.google.com/drive/1OxsQNKTtfYaEWfGrq_O3Mu4bKXwtuHem?usp=sharing)
     * Random Forests and Conclusion
+        * We have used random forest algorithm with 200 trees.
+        * A proper conclusion is also given in this page.
         * The link to this page is [RANDOM FORESTS AND CONCLUSION](https://colab.research.google.com/drive/1AW9XEt7mZmmxFwBV-GADDpUz5mKfcTyw?usp=sharing)
+After all this,I will just highlight the output over here.
 
+MODEL TYPE                        | ACCURACY
+--------------------------------- | -------------
+LOGISTIC REGRESSION               | 50%
+MULTIVARIATE LOG REGRESSION       | 51%(2 FEATURES)
+NEURAL NETWOKS                    | 64%(2 LAYERS),65%(3 LAYERS)
+KERAS                             | 63%
+RANDOM FOREST                     | 67%
 
+## Conclusion
+In this project, we implemented 4 different machine learning models.We also compared their performance in this section.We went deeper into how parameter affects performance in these models.As a classification model, logistic regression achieves less accuracy than  usual.Keras gave a good accuracy,but the difference between the Accuracy and Validation accuracy is huge(which is seen in the graph).Hence,Random Forest has the best result for this classification problem.
+
+From the result,we can conclude that no algorithm can reach 70% accuracy given the dataset we have,even though the data is systematically polished. To improve accuracy, there is little room in model selection but much room in feature selection.59 features were extracted from news articles, and our later work was based on these features. However, the content of news articles hasn’t given us the desired output. Some features are related to the content, such as LDA topics, which are convenient to use for learning, but many were unnecessary information.Finally saying,though feature selection matters the most in any machine learning algorithms,few datasets has to have raw data(words in the article for additional features) for better analysis .
 
