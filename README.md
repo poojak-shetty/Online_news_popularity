@@ -14,6 +14,7 @@ Number of Attributes: 61 (58 predictive attributes, 2 non-predictive, 1 goal fie
 
 
 Attribute Information:
+
 0. url: URL of the article (non-predictive)
 1. timedelta: Days between the article publication and the dataset acquisition (non-predictive)
 2. n_tokens_title: Number of words in the title
@@ -76,6 +77,24 @@ Attribute Information:
 59. abs_title_sentiment_polarity: Absolute polarity level
 60. shares: Number of shares (target)
 
+We are just taking the key features into consideration.
+## The Project
+It has 5 parts,
+* Description
+    * A brief about the project and the objective of this project.
+    * The link to this page is [BRIEF ABOUT THE PROJECT](https://colab.research.google.com/drive/1KnEyXTq439mssK818S5Kx46LdAmNZ2Cp?usp=sharing)
+* Data cleaning and Visualization
+    * This includes importing necessary libraries,loading the dataset as in a csv file over here.
+    * Checking if it has any null values,strings and unnecessary columns.Basically called as data preprocessing.
+    * Here we have visualized the processed data using different plotting techniques.
+    * The link to this page is [DATA CLEANING AND VISUALIZATION](https://colab.research.google.com/drive/18IEnQkxPgaU60bsfLy4bPZf-hDwIQA73?usp=sharing)
+* Models
+    * Logistic Regression model
+        * The link to this page is [LOGISTIC REGRESSION](https://colab.research.google.com/drive/1kvHdMvnQ90vtHecCUqdkz-zeRrzR-u0v?usp=sharing)
+    * Neural Networks and Keras
+        * The link to this page is [NEURAL NETWORKS AND KERAS](https://colab.research.google.com/drive/1OxsQNKTtfYaEWfGrq_O3Mu4bKXwtuHem?usp=sharing)
+    * Random Forests and Conclusion
+        * The link to this page is [RANDOM FORESTS AND CONCLUSION](https://colab.research.google.com/drive/1AW9XEt7mZmmxFwBV-GADDpUz5mKfcTyw?usp=sharing)
 
 
 
